@@ -44,7 +44,7 @@ function IndiaDestination() {
   ];
 
   return (
-    <div className='max-w-6xl mx-auto mt-6'>
+    <div className='max-w-6xl mx-auto'>
       <div className='text-3xl font-semibold'>
         Plan as per the best destinations in India
       </div>

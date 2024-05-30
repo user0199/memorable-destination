@@ -7,7 +7,7 @@ function InfoSection() {
     return (
         <div className='max-w-6xl mx-auto flex flex-col justify-between '>
             <div className='font-bold text-3xl'>How it works?</div>
-            <div className='flex justify-between text-center mt-8'>
+            <div className='flex justify-between text-center pt-4 pb-8 '>
                 <div className='w-56'>
                     <img src={firstImage} alt="first step" className='w-36 h-36' />
                     <div>
@@ -37,7 +37,7 @@ function InfoSection() {
                     </div>
                 </div>
             </div>
-            <div className='max-w-6xl flex justify-center mt-8 '>
+            <div className='max-w-6xl flex justify-center pb-8 '>
                 <button className='border border-black p-2 rounded-lg font-semibold bg-yellow-300 w-80 hover:bg-black hover:text-white transition-all duration-300 ease-in-out '>Plan Itinerary For Free</button>
             </div>
         </div>
