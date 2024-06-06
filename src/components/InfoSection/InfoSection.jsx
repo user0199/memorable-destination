@@ -5,9 +5,9 @@ import thirdImage from "/third.webp"
 import forthImage from "/forth.webp"
 function InfoSection() {
     return (
-        <div className='max-w-6xl mx-auto flex flex-col justify-between '>
+        <div className='max-w-6xl mx-auto flex flex-col justify-between pt-10  '>
             <div className='font-bold text-3xl'>How it works?</div>
-            <div className='flex justify-between text-center pt-4 pb-8 '>
+            <div className='flex justify-between text-center pt-4 pb-8 flex-wrap'>
                 <div className='w-56'>
                     <img src={firstImage} alt="first step" className='w-36 h-36' />
                     <div>

@@ -5,16 +5,22 @@ import EuropPlaces from './components/europPlaces/EuropPlaces';
 import AsiaPlaces from './components/asiaPlaces/AsiaPlaces';
 import WorldPlaces from './components/World/WorldPlaces';
 import AsperMood from './components/planpermood/AsperMood';
+import Header from './components/Header';
+import Banner from './components/Banner';
+import Footer from './components/Footer';
 function App() {
   return (
     <>
       <div className='h-full'>
+        <Header/>
+        <Banner/>
         <InfoSection />
         <IndiaDestination />
         <EuropPlaces/>
         <AsiaPlaces/>
         <WorldPlaces/>
         <AsperMood/>
+        <Footer/>
       </div>
     </>
   );

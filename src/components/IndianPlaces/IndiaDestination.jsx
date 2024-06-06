@@ -23,8 +23,8 @@ import image18 from '/uttarakhand.webp';
 
 function IndiaDestination() {
   const images = [
-    { name: 'Kerala', image: image1 },
-    { name: 'Jammu and Kashmir', image: image2 },
+    { name: 'Kerala', image: image1 , path:"/" },
+    { name: 'Jammu and Kashmir', image: image2, path:"/asia/india/kashmir" },
     { name: 'Ladakh', image: image3 },
     { name: 'Rajasthan', image: image4 },
     { name: 'Spiti Valley', image: image5 },
