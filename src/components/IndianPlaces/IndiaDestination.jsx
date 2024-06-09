@@ -23,25 +23,25 @@ import image18 from '/uttarakhand.webp';
 
 function IndiaDestination() {
   const images = [
-    { name: 'Kerala', image: image1 , path:"/" },
-    { name: 'Jammu and Kashmir', image: image2, path:"/asia/india/kashmir" },
-    { name: 'Ladakh', image: image3 },
-    { name: 'Rajasthan', image: image4 },
-    { name: 'Spiti Valley', image: image5 },
-    { name: 'Andaman and Nicobar', image: image6 },
-    { name: 'Goa', image: image7 },
-    { name: 'Assam', image: image8 },
-    { name: 'Delhi', image: image9 },
-    { name: 'Gujarat', image: image10 },
-    { name: 'Himachal Pradesh', image: image11 },
-    { name: 'Jharkhand', image: image12 },
-    { name: 'Madhya Pradesh', image: image13 },
-    { name: 'Manipur', image: image14 },
-    { name: 'Meghalaya', image: image15 },
-    { name: 'Sikkim', image: image16 },
-    { name: 'Tamil Nadu', image: image17 },
-    { name: 'Uttarakhand', image: image18 },
-  ];
+    { name: 'Kerala', image: image1, path: "/asia/india/kerala" },
+    { name: 'Jammu and Kashmir', image: image2, path: "/asia/india/kashmir" },
+    { name: 'Ladakh', image: image3, path: "/asia/india/ladakh" },
+    { name: 'Rajasthan', image: image4, path: "/asia/india/rajasthan" },
+    { name: 'Spiti Valley', image: image5, path: "/asia/india/spiti-valley" },
+    { name: 'Andaman and Nicobar', image: image6, path: "/asia/india/andaman-nicobar" },
+    { name: 'Goa', image: image7, path: "/asia/india/goa" },
+    { name: 'Assam', image: image8, path: "/asia/india/assam" },
+    { name: 'Delhi', image: image9, path: "/asia/india/delhi" },
+    { name: 'Gujarat', image: image10, path: "/asia/india/gujarat" },
+    { name: 'Himachal Pradesh', image: image11, path: "/asia/india/himachal-pradesh" },
+    { name: 'Jharkhand', image: image12, path: "/asia/india/jharkhand" },
+    { name: 'Madhya Pradesh', image: image13, path: "/asia/india/madhya-pradesh" },
+    { name: 'Manipur', image: image14, path: "/asia/india/manipur" },
+    { name: 'Meghalaya', image: image15, path: "/asia/india/meghalaya" },
+    { name: 'Sikkim', image: image16, path: "/asia/india/sikkim" },
+    { name: 'Tamil Nadu', image: image17, path: "/asia/india/tamil-nadu" },
+    { name: 'Uttarakhand', image: image18, path: "/asia/india/uttarakhand" },
+];
 
   return (
     <div className='max-w-6xl mx-auto'>

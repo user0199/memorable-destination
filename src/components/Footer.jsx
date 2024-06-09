@@ -4,11 +4,19 @@ import { LuPhoneCall } from "react-icons/lu";
 import { IoMdMail } from "react-icons/io";
 const logo = "https://res.cloudinary.com/dmzjba3cu/image/upload/v1717344498/memorable%20destination%20images/LOGO_-_SVG_lofjeb.svg"
 
-
 function Footer() {
     return (
-        <div className='bg-neutral-800 text-white font-semibold'>
-            <div className='max-w-6xl mx-auto pt-5 pb-5 flex gap-16 '>
+        <div className='relative bg-neutral-800 text-white font-semibold'>
+            <div className='info relative -top-40 w-10/12 h-80 bg-yellow-300 mx-auto rounded-lg flex flex-col justify-center items-center '>
+                <h1 className='text-center text-4xl text-black pt-6 font-bold'>Join the memorable destination</h1>
+                <h3 className='text-center text-2xl text-black font-normal'>Get Early Bird Deals, Extra Discounts & Priority Customer Support.</h3>
+                <div className='flex justify-center items-center w-10/12 h-1/2 gap-10'>
+                    <input type="text" placeholder='First Name' className='w-full border border-black p-4 rounded-md bg-yellow-300 text-black '/>
+                    <input type="text" placeholder='Email' className='w-full border border-black p-4 rounded-md bg-yellow-300 text-black '/>
+                    <button className='w-full bg-black text-white p-4 rounded-md'>Subscribe Now</button>
+                </div>
+            </div>
+            <div className='max-w-6xl mx-auto  pb-5 flex gap-16'>
                 <div className='flex flex-col gap-6 justify-between w-1/3 text-sm'>
                     <img src={logo} alt="" className='w-36 bg-white' />
                     <p className='text-white'>The Memorable destination is a travel based startup with the vision to simplify travel and build immersive travel programs across India.</p>
@@ -36,49 +44,45 @@ function Footer() {
                         </p>
                     </div>
                 </div>
-                <div className='w-1/5 '>
+                <div className='w-1/5'>
                     <ul className='flex flex-col gap-5 text-sm'>
                         <li className='mb-5 font-semibold text-lg'>Travel Destinations</li>
-                        <li className=' transition-all duration-800 ease-in-out hover:underline'>Europe</li>
-                        <li className=' transition-all duration-800 ease-in-out hover:underline'>Asia</li>
-                        <li className=' transition-all duration-800 ease-in-out hover:underline'>North America</li>
-                        <li className=' transition-all duration-800 ease-in-out hover:underline'>South America</li>
-                        <li className=' transition-all duration-800 ease-in-out hover:underline'>Australia & New Zealand</li>
-                        <li className=' transition-all duration-800 ease-in-out hover:underline'>Africa</li>
-                        <li className=' transition-all duration-800 ease-in-out hover:underline'>Caribbean</li>
-
+                        <li className='transition-all duration-800 ease-in-out hover:underline'><a href="#">Europe</a></li>
+                        <li className='transition-all duration-800 ease-in-out hover:underline'><a href="#">Asia</a></li>
+                        <li className='transition-all duration-800 ease-in-out hover:underline'><a href="#">North America</a></li>
+                        <li className='transition-all duration-800 ease-in-out hover:underline'><a href="#">South America</a></li>
+                        <li className='transition-all duration-800 ease-in-out hover:underline'><a href="#">Australia & New Zealand</a></li>
+                        <li className='transition-all duration-800 ease-in-out hover:underline'><a href="#">Africa</a></li>
+                        <li className='transition-all duration-800 ease-in-out hover:underline'><a href="#">Caribbean</a></li>
                     </ul>
                 </div>
-                <div className='w-1/5 '>
+                <div className='w-1/5'>
                     <ul className='flex flex-col gap-5 text-sm'>
                         <li className='mb-5 font-semibold text-lg'>Travel Styles</li>
-                        <li className=' transition-all duration-800 ease-in-out hover:underline'>Personalise</li>
-                        <li className=' transition-all duration-800 ease-in-out hover:underline'>Workcation</li>
-                        <li className=' transition-all duration-800 ease-in-out hover:underline'>Volunteer</li>
-                        <li className=' transition-all duration-800 ease-in-out hover:underline'>Road Trips</li>
-                        <li className=' transition-all duration-800 ease-in-out hover:underline'>Unique</li>
-
-
+                        <li className='transition-all duration-800 ease-in-out hover:underline'><a href="#">Personalise</a></li>
+                        <li className='transition-all duration-800 ease-in-out hover:underline'><a href="#">Workcation</a></li>
+                        <li className='transition-all duration-800 ease-in-out hover:underline'><a href="#">Volunteer</a></li>
+                        <li className='transition-all duration-800 ease-in-out hover:underline'><a href="#">Road Trips</a></li>
+                        <li className='transition-all duration-800 ease-in-out hover:underline'><a href="#">Unique</a></li>
                     </ul>
                 </div>
-                <div className='w-1/5 '>
+                <div className='w-1/5'>
                     <ul className='flex flex-col gap-5 text-sm'>
                         <li className='mb-5 font-semibold text-lg'>Company</li>
-                        <li className=' transition-all duration-800 ease-in-out hover:underline'>Blogs</li>
-                        <li className=' transition-all duration-800 ease-in-out hover:underline'>For Corporates</li>
-                        <li className=' transition-all duration-800 ease-in-out hover:underline'>Testimonials</li>
-                        <li className=' transition-all duration-800 ease-in-out hover:underline'>About Us</li>
-                        <li className=' transition-all duration-800 ease-in-out hover:underline'>Contact Us</li>
-
+                        <li className='transition-all duration-800 ease-in-out hover:underline'><a href="#">Blogs</a></li>
+                        <li className='transition-all duration-800 ease-in-out hover:underline'><a href="#">For Corporates</a></li>
+                        <li className='transition-all duration-800 ease-in-out hover:underline'><a href="#">Testimonials</a></li>
+                        <li className='transition-all duration-800 ease-in-out hover:underline'><a href="#">About Us</a></li>
+                        <li className='transition-all duration-800 ease-in-out hover:underline'><a href="#">Contact Us</a></li>
                     </ul>
                 </div>
-                <div className='w-1/5 '>
+                <div className='w-1/5'>
                     <ul className='flex flex-col gap-5 text-sm'>
                         <li className='mb-5 font-semibold text-lg'>Terms & Policies</li>
-                        <li className=' transition-all duration-800 ease-in-out hover:underline'>Terms of service</li>
-                        <li className=' transition-all duration-800 ease-in-out hover:underline'>Privacy Policy</li>
-                        <li className=' transition-all duration-800 ease-in-out hover:underline'>COVID_19 Safety</li>
-                        <li className=' transition-all duration-800 ease-in-out hover:underline'>Subscribe</li>
+                        <li className='transition-all duration-800 ease-in-out hover:underline'><a href="#">Terms of service</a></li>
+                        <li className='transition-all duration-800 ease-in-out hover:underline'><a href="#">Privacy Policy</a></li>
+                        <li className='transition-all duration-800 ease-in-out hover:underline'><a href="#">COVID_19 Safety</a></li>
+                        <li className='transition-all duration-800 ease-in-out hover:underline'><a href="#">Subscribe</a></li>
                     </ul>
                 </div>
             </div>

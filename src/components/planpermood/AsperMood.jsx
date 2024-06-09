@@ -6,7 +6,7 @@ import volunteer from '/volunteer.webp';
 
 function AsperMood() {
     return (
-        <div className='max-w-6xl mx-auto mb-8 flex flex-col gap-4'>
+        <div className='max-w-6xl mx-auto mb-48 flex flex-col gap-4'>
             <div className='text-4xl font-bold mb-8'>
                 <p>Plan trip as per mood</p>
             </div>
@@ -51,7 +51,7 @@ function AsperMood() {
                 </div>
             </div>
             <div className='flex justify-center items-center'>
-                    <button className='bg-yellow-300 border border-black p-1 pl-3 pr-4 rounded-md hover:bg-black hover:text-white transition-all duration-300 ease-in-out'>Create your free itinerary</button>
+                    <button className='bg-yellow-300 border border-black p-1 pl-3 pr-4 rounded-md hover:bg-black font-semibold hover:text-white transition-all duration-300 ease-in-out'>Create your free itinerary</button>
             </div>
         </div>
     );
