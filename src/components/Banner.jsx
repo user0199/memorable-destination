@@ -11,7 +11,7 @@ function Banner({ content, bannerImage }) {
     return (
         <div className='mb-6' style={{ backgroundImage: `url(${bgImage})`, height: '92vh', backgroundSize: 'cover', backgroundPosition: 'center' }}>
             <div className='max-w-6xl mx-auto flex justify-between h-full'>
-                <div className='flex flex-col justify-around w-1/2'>
+                <div className='flex flex-col justify-around w-1/2 '>
                     <div className='text-white'>
                         <h1 className='text-4xl font-bold mb-4'>
                             {content || "Effortless Travel Planning! Let AI Be Your Expert Guide."}
@@ -34,7 +34,7 @@ function Banner({ content, bannerImage }) {
                         </div>
                     </div>
                 </div>
-                <div className='bg-white bg-opacity-75 shadow-sm w-[450px] text-black h-[460px] p-2 pl-4 pr-4 mt-10 rounded-md'>
+                <div className='bg-white bg-opacity-75 shadow-sm w-[450px] text-black h-[460px] p-2 pl-4 pr-4 mt-10 rounded-md hidden md:block'>
                     <h2 className='text-2xl font-semibold border-b pb-3 pt-2 tracking-wide'>Get your free travel plan now</h2>
                     <h3 className='pt-4 pb-4 text-start font-semibold'>What do you want to explore?</h3>
                     <div className='flex flex-col gap-4'>

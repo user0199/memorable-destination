@@ -3,13 +3,68 @@
         {
             "id": 1,
             "Place": "Jammu and Kashmir",
-            "slug":"asia/india/jammu_and_kashmir",
+            "slug": "asia/india/jammu_and_kashmir",
             "bannerContent": "Jammu & Kashmir Trip Planner",
             "bannerimage": "https://res.cloudinary.com/dmzjba3cu/image/upload/v1714371118/memorable%20destination%20images/hkmddupbpulo1v9kf6gu.jpg",
-            "details":""
+            "details": {
+                "title": "Scenic Paradise \"Kashmir\"",
+                "itinerary": [
+                    {
+                        "day": 1,
+                        "description": [
+                            "Arrival at Srinagar, Shankaracharya Temple, Mughal Gardens & Dal Lake.",
+                            "Upon arrival at Srinagar met by our representative and transfer.",
+                            "Start our Sightseeing tour by visit of Shankaracharya Temple.",
+                            "In the afternoon, we take a visit to Mughal Gardens (Nishat, Shalimar, Chasma Shahi and Pari Mahal)"
+                        ]
+                    },
+                    {
+                        "day": 2,
+                        "description": [
+                            "SRINAGAR TO SONMARG",
+                            "After a leisurely breakfast, we check out from Hotel & transfer to Sonmarg",
+                            "Sonmarg, which means Meadow of Gold.",
+                            "The drive offers incredible scenic beauty, Dense pine forests and Gigantic mountains."
+                        ]
+                    },
+                    {
+                        "day": 3,
+                        "description": [
+                            "SRINAGAR TO GULMARG",
+                            "Early morning Check Out from houseboat and proceed to Gulmarg",
+                            "Gulmarg - the meadow of flowers is an apt term for this idyllic flower-laden meadow",
+                            "Stroll leisurely or take pony rides (by your own payment) across the green meadow",
+                            "A must is a fun-filled ride in the Gondola lift (by your own payment)",
+                            "Return to Srinagar in the evening and enjoy a comfortable overnight stay at Hotel"
+                        ]
+                    },
+                    {
+                        "day": 4,
+                        "description": [
+                            "SRINAGAR TO PAHALGAM",
+                            "Enroute visit saffron Fields & 19th Century Awantipura Ruins",
+                            "Rest of the day is free to enjoy and explore the Beauty of “Pahalgam” (ON OWN)"
+                        ]
+                    },
+                    {
+                        "day": "Day 5",
+                        "description": [
+                            "PAHALGAM TO SRINAGAR",
+                            "Check-in at Super Deluxe houseboat, freshen up and relax at the luxury of the royal hospitality.",
+                            "In the evening enjoy Shikara ride on Dal Lake and witness the marvel of the nature that is beyond visual and verbal descriptions.",
+                            "The Sun-set view from the Shikara will engulf your heart and leave your spell bound.",
+                            "Later enjoy the welcome dinner and overnight stay in the Houseboat."
+                        ]
+                    },
+                    {
+                        "day": "Day 6",
+                        "description": [
+                            "DEPART SRINAGAR",
+                            "Transfer to Airport or Railway Station: Say See you Soon! to the Goa & Memorable Destination's team Members & Proceed for your Safe onward journey."
+                        ]
+                    }
+                ]
+            }
         }
     ]
 }
-
-
-

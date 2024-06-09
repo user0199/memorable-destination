@@ -6,7 +6,7 @@ const logo = "https://res.cloudinary.com/dmzjba3cu/image/upload/v1717344498/memo
 
 function Footer() {
     return (
-        <div className='relative bg-neutral-800 text-white font-semibold'>
+        <div className='relative bg-neutral-800 text-white font-semibold mt-40'>
             <div className='info relative -top-40 w-10/12 h-80 bg-yellow-300 mx-auto rounded-lg flex flex-col justify-center items-center '>
                 <h1 className='text-center text-4xl text-black pt-6 font-bold'>Join the memorable destination</h1>
                 <h3 className='text-center text-2xl text-black font-normal'>Get Early Bird Deals, Extra Discounts & Priority Customer Support.</h3>

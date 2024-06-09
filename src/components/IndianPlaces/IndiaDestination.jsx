@@ -21,7 +21,7 @@ import image17 from '/tamilnadu.webp';
 import image18 from '/uttarakhand.webp';
 
 
-function IndiaDestination() {
+function IndiaDestination({title}) {
   const images = [
     { name: 'Kerala', image: image1, path: "/asia/india/kerala" },
     { name: 'Jammu and Kashmir', image: image2, path: "/asia/india/kashmir" },
@@ -46,7 +46,9 @@ function IndiaDestination() {
   return (
     <div className='max-w-6xl mx-auto'>
       <div className='text-3xl font-semibold'>
-        Plan as per the best destinations in India
+       {
+        title ? title : "Plan as per the best destinations in India"
+       } 
       </div>
       <ImageSlider images={images} />
     </div>

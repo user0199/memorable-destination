@@ -2,7 +2,22 @@ import React from 'react';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
+
 // import './ImageSlider.css';  // Import the CSS file for custom styles
+
+
+const PrevArrow = ({ onClick }) => (
+    <div className="absolute top-1/2 -left-2  bg-black bg-opacity-50 text-white p-2 h-10 w-10 rounded-full z-10 cursor-pointer flex justify-center items-center " onClick={onClick}>
+        <FaChevronLeft />
+    </div>
+);
+
+const NextArrow = ({ onClick }) => (
+    <div className="absolute top-1/2 -right-2 flex justify-center items-center bg-black bg-opacity-50 text-white p-2 h-10 w-10 rounded-full z-10 cursor-pointer" onClick={onClick}>
+        <FaChevronRight />
+    </div>
+);
 
 const ImageSlider = ({ images }) => {
     const settings = {
@@ -64,30 +79,30 @@ const ImageSlider = ({ images }) => {
     );
 };
 
-const NextArrow = (props) => {
-    const { className, style, onClick } = props;
-    return (
-        <div
-            className={`${className} absolute top-1/2 right-0 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 h-10 w-10 rounded-full z-10 cursor-pointer`}
-            style={{ ...style, display: "block" }}
-            onClick={onClick}
-        >
-            &#10095;
-        </div>
-    );
-};
+// const NextArrow = (props) => {
+//     const { className, style, onClick } = props;
+//     return (
+//         <div
+//             className={`${className} absolute top-1/2 right-0 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 h-10 w-10 rounded-full z-10 cursor-pointer`}
+//             style={{ ...style, display: "block" }}
+//             onClick={onClick}
+//         >
+//             &#10095;
+//         </div>
+//     );
+// };
 
-const PrevArrow = (props) => {
-    const { className, style, onClick } = props;
-    return (
-        <div
-            className={`${className} absolute top-1/2 left-0 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 h-10 w-10 rounded-full z-10 cursor-pointer`}
-            style={{ ...style, display: "block" }}
-            onClick={onClick}
-        >
-            &#10094;
-        </div>
-    );
-};
+// const PrevArrow = (props) => {
+//     const { className, style, onClick } = props;
+//     return (
+//         <div
+//             className={`${className} absolute top-1/2 left-0 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 h-10 w-10 rounded-full z-10 cursor-pointer`}
+//             style={{ ...style, display: "block" }}
+//             onClick={onClick}
+//         >
+//             &#10094;
+//         </div>
+//     );
+// };
 
 export default ImageSlider;
