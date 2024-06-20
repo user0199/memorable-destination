@@ -6,7 +6,7 @@ import image2 from '/jammuandkashmir.webp';
 import image3 from '/laddakh.webp';
 import image4 from '/rajasthan.webp';
 import image5 from '/spitivally.webp';
-import image6 from '/andmannicobar.webp';
+import image6 from '/drilldown.jpeg';
 import image7 from '/goa.webp';
 import image8 from '/asam.webp';
 import image9 from '/delhi.webp';
@@ -26,9 +26,9 @@ function IndiaDestination({title}) {
     { name: 'Kerala', image: image1, path: "/asia/india/kerala" },
     { name: 'Jammu and Kashmir', image: image2, path: "/asia/india/kashmir" },
     { name: 'Ladakh', image: image3, path: "/asia/india/ladakh" },
-    { name: 'Rajasthan', image: image4, path: "/asia/india/rajasthan" },
+    { name: 'Rajasthan', image: image4, path: "/asia/india/jaisalmer" },
     { name: 'Spiti Valley', image: image5, path: "/asia/india/spiti-valley" },
-    { name: 'Andaman and Nicobar', image: image6, path: "/asia/india/andaman-nicobar" },
+    { name: 'Dubai', image: image6, path: "/asia/Dubai" },
     { name: 'Goa', image: image7, path: "/asia/india/goa" },
     { name: 'Assam', image: image8, path: "/asia/india/assam" },
     { name: 'Delhi', image: image9, path: "/asia/india/delhi" },

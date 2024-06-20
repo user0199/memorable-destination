@@ -16,7 +16,7 @@ function Footer() {
                     <button className='w-full bg-black text-white p-4 rounded-md'>Subscribe Now</button>
                 </div>
             </div>
-            <div className='max-w-6xl mx-auto  pb-5 flex gap-16'>
+            <div className='max-w-6xl mx-auto  pb-5 flex flex-wrap gap-16'>
                 <div className='flex flex-col gap-6 justify-between w-1/3 text-sm'>
                     <img src={logo} alt="" className='w-36 bg-white' />
                     <p className='text-white'>The Memorable destination is a travel based startup with the vision to simplify travel and build immersive travel programs across India.</p>

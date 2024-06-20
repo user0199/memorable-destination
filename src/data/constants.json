@@ -1,3 +1,4 @@
+
 {
     "data": [
         {
@@ -65,6 +66,125 @@
                     }
                 ]
             }
+        },
+        {
+            "id": 2,
+            "Place": "Jaisalmer",
+            "slug": "asia/india/jaisalmer",
+            "bannerContent": "The Golden City! Jaisalmer",
+            "bannerimage": "https://res.cloudinary.com/dmzjba3cu/image/upload/v1714371117/memorable%20destination%20images/dsjqivbofv8qks0rtlwm.jpg",
+            "details": {
+                "title": "Visit Jaisalmer, India's Golden City",
+                "itinerary": [
+                    {
+                        "day": 1,
+                        "description": [
+                            "Arrival in Jaisalmer, known as the Golden City.",
+                            "Explore the majestic Jaisalmer Fort, a UNESCO World Heritage site.",
+                            "Wander through narrow lanes, ancient havelis, and historic temples."
+                        ]
+                    },
+                    {
+                        "day": 2,
+                        "description": [
+                            "Embark on a thrilling desert safari in the Thar Desert.",
+                            "Traverse the rugged terrain in 4x4 vehicles.",
+                            "Camp under the starry sky and enjoy traditional Rajasthani hospitality."
+                        ]
+                    },
+                    {
+                        "day": 3,
+                        "description": [
+                            "Immerse yourself in Jaisalmer's cultural heritage.",
+                            "Witness traditional dance and music performances.",
+                            "Savor the flavors of Rajasthani cuisine."
+                        ]
+                    },
+                    {
+                        "day": 4,
+                        "description": [
+                            "Visit the bustling local markets of Jaisalmer.",
+                            "Shop for local handicrafts, textiles, and jewelry.",
+                            "Experience the vibrant colors and unique designs of the region."
+                        ]
+                    },
+                    {
+                        "day": 5,
+                        "description": [
+                            "Enjoy the serene beauty of Gadisar Lake.",
+                            "Take a peaceful boat ride or a leisurely stroll around the lake.",
+                            "Explore the surrounding temples and ghats."
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 3,
+            "Place": "Dubai",
+            "slug": "asia/uae/dubai",
+            "bannerContent": "Dubai Trip Planner",
+            "bannerimage": "/drilldown.jpeg",
+            "details": {
+                "title": "Explore the Dazzling \"Dubai\"",
+                "itinerary": [
+                    {
+                        "day": 1,
+                        "description": [
+                            "Arrive Dubai - Transfer To Hotel + Evening Marina Dhow Cruise With Dinner",
+                            "Upon your early morning arrival at Dubai/Sharjah airport, we’ll be there to greet you.",
+                            "In the evening, you’re in for a treat with a Dhow Cruise on the Dubai Marina.",
+                            "We’ll bring you back to the hotel for your first night in Dubai."
+                        ]
+                    },
+                    {
+                        "day": 2,
+                        "description": [
+                            "Half Day City Tour + Evening Desert Safari With Dinner",
+                            "On Day 2, get ready for an exciting time in Dubai!",
+                            "First, enjoy a half-day city tour where you’ll see Dubai Museum, Al Fahidi Fort, Burj Al Arab, Palm Island & more.",
+                            "The Evening Desert Safari. Starting with convenient hotel pickup.",
+                            "Capture mesmerizing sunset views as you explore.",
+                            "Enjoy BBQ dinner under the stars with unlimited soft drinks."
+                        ]
+                    },
+                    {
+                        "day": 3,
+                        "description": [
+                            "Dubai Mall And Top Of Burj Khalifa",
+                            "Today post Breakfast we proceed to “The Burj Khalifa”.",
+                            "Also visit the Observation Deck on the 124th floor and get a 360 degree view of the entire city.",
+                            "After that visit world famous Dubai Mall."
+                        ]
+                    },
+                    {
+                        "day": 4,
+                        "description": [
+                            "Day Free At Leisure-Optional-Abu Dhabi City Tour With Ferrari World/Optional Visit Museum Of Future",
+                            "You have three options for Day 4.",
+                            "Book any one option at the time of Booking."
+                        ]
+                    },
+                    {
+                        "day": 5,
+                        "description": [
+                            "Miracle Garden And Evening Global Village",
+                            "Get ready to be amazed at Dubai Miracle Garden! The biggest flower garden ever with over 45 million flowers.",
+                            "In the afternoon, you can head to Global Village (It’s open from November to April and has more than 70 countries taking part)."
+                        ]
+                    },
+                    {
+                        "day": 6,
+                        "description": [
+                            "Departure"
+                        ]
+                    }
+                ]
+            }
         }
+        
     ]
 }
+
+
+

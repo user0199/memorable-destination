@@ -10,14 +10,14 @@ import Banner from '../components/Banner';
 import Footer from '../components/Footer';
 function HomePage() {
   return (
-    <div className='h-full'>
+    <div className=''>
     <Header/>
     <Banner/>
     <InfoSection />
     <IndiaDestination />
     <EuropPlaces/>
     <AsiaPlaces/>
-    <WorldPlaces/>
+    {/* <WorldPlaces/> */}
     <AsperMood/>
     <Footer/>
   </div>

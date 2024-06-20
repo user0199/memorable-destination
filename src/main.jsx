@@ -5,12 +5,16 @@ import App from './App.jsx'
 import './index.css'
 import HomePage from './Pages/HomePage.jsx';
 import Kashmir from './Pages/Kashmir.jsx';
-
+import Jaisalmer from "./Pages/Jaisalmer.jsx"
+import Dubai from "./Pages/Dubai.jsx" 
 
 const router = createBrowserRouter(createRoutesFromElements(
   <>
     <Route path='/' element={<HomePage />} />
     <Route path='/asia/india/kashmir' element={<Kashmir/>}/>
+    <Route path="asia/india/jaisalmer" element={<Jaisalmer/>}/>
+    <Route path="asia/Dubai" element={<Dubai/>}/>
+    
   </>
 ))
 

@@ -47,8 +47,9 @@ const ImageSlider = ({ images }) => {
             {
                 breakpoint: 480, // Small devices
                 settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    dots:false
                 }
             }
         ]
@@ -59,7 +60,7 @@ const ImageSlider = ({ images }) => {
             <Slider {...settings}>
                 {images.map((item, index) => (
                     <div key={index} className="px-2">
-                        <div className="relative w-full h-64 rounded-md overflow-hidden">
+                        <div className="relative   md:w-full h-96 md:h-64 rounded-md overflow-hidden">
                             <Link to={item.path}>
                                 <img src={item.image} alt={item.name} className="w-full h-full object-cover rounded-md border hover:scale-105 transition-transform duration-400 ease-in cursor-pointer"  />
                             </Link>

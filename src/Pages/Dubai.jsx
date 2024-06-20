@@ -8,8 +8,8 @@ import PlanCard from '../components/PlaneCard';
 import constants from "../data/constants.json";
 
 function Kashmir() {
-    const kashmirData = constants.data.find(item => item.Place === "Jammu and Kashmir");
-    const { Place,bannerContent, bannerimage, details } = kashmirData || {};
+    const DubaiData = constants.data.find(item => item.Place === "Dubai");
+    const { Place, bannerContent, bannerimage, details } = DubaiData || {};
     const { title, itinerary } = details || {};
 
     useEffect(() => {
