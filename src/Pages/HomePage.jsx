@@ -8,19 +8,23 @@ import AsperMood from '../components/planpermood/AsperMood';
 import Header from '../components/Header';
 import Banner from '../components/Banner';
 import Footer from '../components/Footer';
+import PlanWithUs from '../components/planwithus/PlanWithUs';
+import Testimonial from '../components/Testimonial';
 function HomePage() {
   return (
     <div className=''>
-    <Header/>
-    <Banner/>
-    <InfoSection />
-    <IndiaDestination />
-    <EuropPlaces/>
-    <AsiaPlaces/>
-    {/* <WorldPlaces/> */}
-    <AsperMood/>
-    <Footer/>
-  </div>
+      <Header />
+      <Banner />
+      <InfoSection />
+      <IndiaDestination />
+      <EuropPlaces />
+      <AsiaPlaces />
+      {/* <WorldPlaces/> */}
+      <AsperMood />
+      <PlanWithUs />
+      <Testimonial />
+      <Footer />
+    </div>
   )
 }
 

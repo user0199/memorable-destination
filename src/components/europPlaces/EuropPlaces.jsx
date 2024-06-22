@@ -45,8 +45,8 @@ function EuropPlaces() {
       ];
     
       return (
-        <div className='max-w-6xl mx-auto '>
-          <div className='text-3xl font-semibold'>
+        <div className='max-w-6xl mx-auto p-4'>
+          <div className=' text-2xl font-bold lg:text-3xl lg:font-semibold'>
           Top countries to visit in Europe
           </div>
           <Slider images={images} />

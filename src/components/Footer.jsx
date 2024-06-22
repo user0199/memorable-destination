@@ -6,20 +6,22 @@ const logo = "https://res.cloudinary.com/dmzjba3cu/image/upload/v1717344498/memo
 
 function Footer() {
     return (
-        <div className='relative bg-neutral-800 text-white font-semibold mt-40'>
-            <div className='info relative -top-40 w-10/12 h-80 bg-yellow-300 mx-auto rounded-lg flex flex-col justify-center items-center '>
-                <h1 className='text-center text-4xl text-black pt-6 font-bold'>Join the memorable destination</h1>
-                <h3 className='text-center text-2xl text-black font-normal'>Get Early Bird Deals, Extra Discounts & Priority Customer Support.</h3>
-                <div className='flex justify-center items-center w-10/12 h-1/2 gap-10'>
-                    <input type="text" placeholder='First Name' className='w-full border border-black p-4 rounded-md bg-yellow-300 text-black '/>
-                    <input type="text" placeholder='Email' className='w-full border border-black p-4 rounded-md bg-yellow-300 text-black '/>
-                    <button className='w-full bg-black text-white p-4 rounded-md'>Subscribe Now</button>
+        <div className='relative bg-neutral-800 text-white font-semibold '>
+            <div className='info relative -top-40 w-10/12 h-96 md:h-80 bg-yellow-300 mx-auto rounded-lg flex flex-col justify-around lg:justify-center items-center mt-44'>
+                <div>
+                    <h1 className='text-center text-xl md:text-2xl lg:text-4xl text-black  font-bold'>Join the memorable destination</h1>
+                    <h3 className='text-center text-base md:text-xl lg:text-2xl text-black font-normal px-2'>Get Early Bird Deals, Extra Discounts & Priority Customer Support.</h3>
+                </div>
+                <div className='flex flex-col lg:flex-row   justify-center items-center w-10/12 lg:h-1/2 gap-4 lg:gap-10'>
+                    <input type="text" placeholder='First Name' className='w-full border border-black p-2 lg:p-4 rounded-md bg-yellow-300 text-black ' />
+                    <input type="text" placeholder='Email' className='w-full border border-black p-2 lg:p-4 rounded-md bg-yellow-300 text-black ' />
+                    <button className='w-full bg-black text-white p-2 lg:p-4 rounded-md'>Subscribe Now</button>
                 </div>
             </div>
-            <div className='max-w-6xl mx-auto  pb-5 flex flex-wrap gap-16'>
-                <div className='flex flex-col gap-6 justify-between w-1/3 text-sm'>
-                    <img src={logo} alt="" className='w-36 bg-white' />
-                    <p className='text-white'>The Memorable destination is a travel based startup with the vision to simplify travel and build immersive travel programs across India.</p>
+            <div className='max-w-6xl mx-auto  pb-5 flex flex-wrap  lg:flex-nowrap gap-6 lg:gap-16 p-4 '>
+                <div className='flex flex-col gap-6 md:w-1/3 md:pl-4 lg:w-1/5 text-sm'>
+                    <img src={logo} alt="" className='w-36  bg-white' />
+                    <p className='text-sm font-semibold md:text-white'>The Memorable destination is a travel based startup with the vision to simplify travel and build immersive travel programs across India.</p>
                     <div className="flex gap-4">
                         <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="social-icon">
                             <FaTwitter className="w-8 h-8 text-gray-500 hover:text-[#1DA1F2]" />
@@ -44,7 +46,7 @@ function Footer() {
                         </p>
                     </div>
                 </div>
-                <div className='w-1/5'>
+                <div className='w-32 lg:w-1/5  '>
                     <ul className='flex flex-col gap-5 text-sm'>
                         <li className='mb-5 font-semibold text-lg'>Travel Destinations</li>
                         <li className='transition-all duration-800 ease-in-out hover:underline'><a href="#">Europe</a></li>
@@ -56,9 +58,9 @@ function Footer() {
                         <li className='transition-all duration-800 ease-in-out hover:underline'><a href="#">Caribbean</a></li>
                     </ul>
                 </div>
-                <div className='w-1/5'>
+                <div className='w-32 lg:w-1/5 '>
                     <ul className='flex flex-col gap-5 text-sm'>
-                        <li className='mb-5 font-semibold text-lg'>Travel Styles</li>
+                        <li className=' mb-12 md:mb-5 font-semibold text-lg'>Travel Styles</li>
                         <li className='transition-all duration-800 ease-in-out hover:underline'><a href="#">Personalise</a></li>
                         <li className='transition-all duration-800 ease-in-out hover:underline'><a href="#">Workcation</a></li>
                         <li className='transition-all duration-800 ease-in-out hover:underline'><a href="#">Volunteer</a></li>
@@ -66,9 +68,9 @@ function Footer() {
                         <li className='transition-all duration-800 ease-in-out hover:underline'><a href="#">Unique</a></li>
                     </ul>
                 </div>
-                <div className='w-1/5'>
+                <div className='w-32 lg:w-1/5'>
                     <ul className='flex flex-col gap-5 text-sm'>
-                        <li className='mb-5 font-semibold text-lg'>Company</li>
+                        <li className=' mb-12 md:mb-5 font-semibold text-lg'>Company</li>
                         <li className='transition-all duration-800 ease-in-out hover:underline'><a href="#">Blogs</a></li>
                         <li className='transition-all duration-800 ease-in-out hover:underline'><a href="#">For Corporates</a></li>
                         <li className='transition-all duration-800 ease-in-out hover:underline'><a href="#">Testimonials</a></li>
@@ -76,7 +78,7 @@ function Footer() {
                         <li className='transition-all duration-800 ease-in-out hover:underline'><a href="#">Contact Us</a></li>
                     </ul>
                 </div>
-                <div className='w-1/5'>
+                <div className='w-32 lg:w-1/5'>
                     <ul className='flex flex-col gap-5 text-sm'>
                         <li className='mb-5 font-semibold text-lg'>Terms & Policies</li>
                         <li className='transition-all duration-800 ease-in-out hover:underline'><a href="#">Terms of service</a></li>

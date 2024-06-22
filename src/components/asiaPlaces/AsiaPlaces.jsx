@@ -43,8 +43,8 @@ function AsiaPlaces() {
     ];
 
     return (
-        <div className='max-w-6xl mx-auto'>
-            <div className='text-3xl font-semibold pt-5'>
+        <div className='max-w-6xl mx-auto p-4'>
+            <div className='text-2xl font-bold lg:text-3xl lg:font-semibold pt-5'>
                 Top countries to visit in Asia
             </div>
             <Slider images={images} />

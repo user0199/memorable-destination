@@ -1,4 +1,3 @@
-
 {
     "data": [
         {
@@ -182,9 +181,47 @@
                 ]
             }
         }
-        
+    ],
+    "testimonial": [
+        {
+            "image": "https://randomuser.me/api/portraits/men/1.jpg",
+            "name": "John Doe",
+            "stars": 5,
+            "days": 6,
+            "place": "Jammu and Kashmir",
+            "text": "This trip was amazing! The planner was very helpful and everything went smoothly."
+        },
+        {
+            "image": "https://randomuser.me/api/portraits/women/2.jpg",
+            "name": "Jane Smith",
+            "stars": 4,
+            "days": 5,
+            "place": "Jaisalmer",
+            "text": "I had a wonderful time in Jaisalmer. The itinerary was perfect and very well organized."
+        },
+        {
+            "image": "https://randomuser.me/api/portraits/men/3.jpg",
+            "name": "Bob Johnson",
+            "stars": 5,
+            "days": 6,
+            "place": "Dubai",
+            "text": "Dubai is incredible! The AI planner made everything so easy and enjoyable."
+        },
+        {
+            "image": "https://randomuser.me/api/portraits/men/3.jpg",
+            "name": "Bob Johnson",
+            "stars": 5,
+            "days": 6,
+            "place": "Dubai",
+            "text": "Dubai is incredible! The AI planner made everything so easy and enjoyable."
+        },
+        {
+            "image": "https://randomuser.me/api/portraits/men/3.jpg",
+            "name": "Bob Johnson",
+            "stars": 5,
+            "days": 6,
+            "place": "Dubai",
+            "text": "Dubai is incredible! The AI planner made everything so easy and enjoyable."
+        }
     ]
 }
-
-
-

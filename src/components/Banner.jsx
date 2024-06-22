@@ -1,23 +1,38 @@
-import React from 'react';
+import React,{useState} from 'react';
 import { FaLocationCrosshairs } from "react-icons/fa6";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaMapLocationDot } from "react-icons/fa6";
 import { FaCalendarAlt } from "react-icons/fa";
 import { FaHandHoldingUsd } from "react-icons/fa";
+import TravelPlanModal from './TravelPlanModal';  
+
 
 function Banner({ content, bannerImage }) {
     const bgImage = bannerImage ? bannerImage : "https://res.cloudinary.com/dmzjba3cu/image/upload/v1714371055/samples/landscapes/beach-boat.jpg";
 
+
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+    const handleOpenModal = () => {
+        console.log("Open Modal Clicked");
+        setIsModalOpen(true);
+    };
+
+    const handleCloseModal = () => {
+        console.log("Close Modal Clicked");
+        setIsModalOpen(false);
+    };
+
     return (
         <div className='mb-6' style={{ backgroundImage: `url(${bgImage})`, height: '92vh', backgroundSize: 'cover', backgroundPosition: 'center' }}>
             <div className='max-w-full mx-auto flex flex-col lg:flex-row justify-between h-full p-4'>
-                <div className='flex flex-col gap-9 lg:justify-between  w-full lg:w-1/2 mt-20 lg:mt-0 '>
-                    <div className='flex flex-col justify-between  gap-2 text-white text-center md:text-left lg:p-8'>
-                        <h1 className='text-[22px] lg:text-4xl font-bold'>
+                <div className='flex flex-col gap-9  h-full justify-between lg:justify-between w-full lg:w-1/2 mt-20 lg:mt-0 '>
+                    <div className='flex flex-col  items-center lg:items-start  gap-2 text-white text-center md:text-left lg:p-8'>
+                        <h1 className=' text-[22px]  lg:text-4xl font-bold'>
                             {content || "Effortless Travel Planning! Let AI Be Your Expert Guide."}
                         </h1>
-                        <h3 className='text-lg lg:text-2xl mb-5'>Bid farewell to generic holiday packages. Get Your AI-Personalised Itineraries</h3>
-                        <button className='lg:w-56 bg-yellow-400 border border-black text-black text-base lg:text-lg font-semibold rounded-lg px-3 py-2 hover:bg-black hover:text-white transition duration-300'>Plan Itinerary For Free!</button>
+                        <h3 className=' text-lg lg:text-2xl mb-5'>Bid farewell to generic holiday packages. Get Your AI-Personalised Itineraries</h3>
+                        <button className=' lg:w-56 bg-yellow-400 border border-black text-black text-base lg:text-lg font-semibold rounded-lg px-3 py-2 hover:bg-black hover:text-white transition duration-300' onClick={handleOpenModal}>Plan Itinerary For Free!</button>
                     </div>
                     <div className='flex justify-between w-full  lg:gap-16 mt-4 lg:mt-0'>
                         <div className='flex flex-col items-center w-full lg:w-32'>
@@ -27,12 +42,12 @@ function Banner({ content, bannerImage }) {
                         <div className='flex flex-col items-center w-full lg:w-32'>
                             <FaCalendarAlt className='text-white w-10 h-10 lg:w-14 lg:h-14' />
                             <p className='font-semibold text-white text-center text-xs lg:text-base'>Affordable &
-                            Flexible Bookings</p>
+                                Flexible Bookings</p>
                         </div>
                         <div className='flex flex-col items-center w-full  lg:w-32'>
                             <FaHandHoldingUsd className='text-white w-10 h-10 lg:w-14 lg:h-14' />
                             <p className='font-semibold text-white text-center text-xs lg:text-base'>Zero Hidden
-                            Charges</p>
+                                Charges</p>
                         </div>
                     </div>
                 </div>
@@ -69,6 +84,8 @@ function Banner({ content, bannerImage }) {
                     </div>
                 </div>
             </div>
+
+            {isModalOpen && <TravelPlanModal isOpen={isModalOpen} onClose={handleCloseModal} />}
         </div>
     );
 }

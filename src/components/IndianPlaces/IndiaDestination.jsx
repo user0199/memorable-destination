@@ -44,8 +44,8 @@ function IndiaDestination({title}) {
 ];
 
   return (
-    <div className='max-w-6xl mx-auto'>
-      <div className='text-3xl font-semibold'>
+    <div className='max-w-6xl mx-auto p-4'>
+      <div className='text-2xl font-bold md:text-3xl md:font-semibold'>
        {
         title ? title : "Plan as per the best destinations in India"
        } 

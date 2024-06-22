@@ -56,7 +56,7 @@ const ImageSlider = ({ images }) => {
     };
 
     return (
-        <div className="relative max-w-6xl mx-auto mt-8 mb-8 px-4">
+        <div className="relative max-w-6xl mx-auto mt-8 mb-8 ">
             <Slider {...settings}>
                 {images.map((item, index) => (
                     <div key={index} className="px-2">
