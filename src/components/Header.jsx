@@ -3,10 +3,14 @@ import { FaUserCircle } from "react-icons/fa";
 import { IoMdSearch } from "react-icons/io";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoMdClose } from "react-icons/io";
+import TravelPlanModal from './TravelPlanModal';  
+
 import { Link } from 'react-router-dom';
 
 const MenuBar = ({ isOpen, toggleMenu }) => {
     const logo = "https://res.cloudinary.com/dmzjba3cu/image/upload/v1717344503/memorable%20destination%20images/LOGO_-JPG_tvg44k.jpg";
+
+    
     return (
         <div className={`fixed top-0 left-0 h-screen w-64 bg-white shadow-lg z-50 ${isOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 ease-in-out`}>
             <div className='relative flex justify-end p-4 overflow-hidden'>
@@ -17,7 +21,6 @@ const MenuBar = ({ isOpen, toggleMenu }) => {
                     <IoMdClose className='h-8 w-8 text-gray-700' />
                 </button>
             </div>
-            {/* Menu items */}
             <div className='p-4'>
                 <Link to='/' className='block py-2 px-4 text-gray-700 hover:bg-gray-200 hover:text-gray-900' onClick={toggleMenu}>Home</Link>
                 <Link to='/testimonials' className='block py-2 px-4 text-gray-700 hover:bg-gray-200 hover:text-gray-900' onClick={toggleMenu}>Testimonials</Link>
@@ -45,6 +48,18 @@ function Header() {
         setShowMenu(!showMenu);
     };
 
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+    const handleOpenModal = () => {
+        console.log("Open Modal Clicked");
+        setIsModalOpen(true);
+    };
+
+    const handleCloseModal = () => {
+        console.log("Close Modal Clicked");
+        setIsModalOpen(false);
+    };
+
     return (
         <div className='max-w-full mx-auto flex justify-between items-center h-20 p-4 overflow-hidden'>
             <div className='md:hidden' onClick={toggleMenu}>
@@ -55,14 +70,14 @@ function Header() {
             </div>
             <div className='hidden md:flex relative w-full mx-4 md:w-1/2'>
                 <IoMdSearch className='h-6 w-6 absolute top-2 left-2 text-gray-400' />
-                <input 
-                    type="text" 
-                    placeholder='Where do you want to go!' 
-                    className='border border-gray-300 h-10 w-full rounded-lg pl-10 text-sm md:text-lg font-semibold' 
+                <input
+                    type="text"
+                    placeholder='Where do you want to go!'
+                    className='border border-gray-300 h-10 w-full rounded-lg pl-10 text-sm md:text-lg font-semibold'
                 />
             </div>
             <div className='flex gap-2 items-center'>
-                <button className='hidden md:block p-1 px-2 border bg-yellow-400 text-sm md:text-lg font-semibold rounded-lg border-black hover:bg-black hover:text-white transition-all duration-300 ease-in-out'>
+                <button className='hidden md:block p-1 px-2 border bg-yellow-400 text-sm md:text-lg font-semibold rounded-lg border-black hover:bg-black hover:text-white transition-all duration-300 ease-in-out' onClick={handleOpenModal}>
                     Create a trip
                 </button>
                 <div className='md:hidden'>
@@ -76,15 +91,17 @@ function Header() {
                 <div className='absolute top-20 left-0 w-full bg-white p-4'>
                     <div className='relative w-full'>
                         <IoMdSearch className='h-6 w-6 absolute top-2 left-2 text-gray-400' />
-                        <input 
-                            type="text" 
-                            placeholder='Where do you want to go!' 
-                            className='border border-gray-300 h-10 w-full rounded-lg pl-10 text-sm md:text-lg font-semibold' 
+                        <input
+                            type="text"
+                            placeholder='Where do you want to go!'
+                            className='border border-gray-300 h-10 w-full rounded-lg pl-10 text-sm md:text-lg font-semibold'
                         />
                     </div>
                 </div>
             )}
             <MenuBar isOpen={showMenu} toggleMenu={toggleMenu} />
+            {isModalOpen && <TravelPlanModal isOpen={isModalOpen} onClose={handleCloseModal} />}
+
         </div>
     );
 }
