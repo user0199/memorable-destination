@@ -6,10 +6,14 @@ import Banner from '../components/Banner';
 import Footer from '../components/Footer';
 import PlanCard from '../components/PlaneCard';
 import constants from "../data/constants.json";
+import PlanWithUs from "../components/planwithus/PlanWithUs"
+import Testimonial from "../components/Testimonial"
+import ContactUsButton from '../components/ContactUsButton';
+import PricingCard from '../components/PricingCard';
 
 function Kashmir() {
     const DubaiData = constants.data.find(item => item.Place === "Dubai");
-    const { Place, bannerContent, bannerimage, details } = DubaiData || {};
+    const { Place, bannerContent, bannerimage, details,price, days } = DubaiData || {};
     const { title, itinerary } = details || {};
 
     useEffect(() => {
@@ -21,8 +25,12 @@ function Kashmir() {
             <Header />
             <Banner content={bannerContent} bannerImage={bannerimage} />
             <PlanCard title={title} itinerary={itinerary} Place={Place} />
-            <IndiaDestination title={"Other Places"}/>
+            <PricingCard place={Place} image={bannerimage} price={price} days={days} />
+            <IndiaDestination title={"Other Places"} />
             <InfoSection />
+            <PlanWithUs />
+            <Testimonial />
+            <ContactUsButton />
             <Footer />
         </div>
     );

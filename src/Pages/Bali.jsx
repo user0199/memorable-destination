@@ -11,9 +11,9 @@ import Testimonial from "../components/Testimonial"
 import ContactUsButton from '../components/ContactUsButton';
 import PricingCard from '../components/PricingCard';
 
-function Kashmir() {
-    const JaisalmerData = constants.data.find(item => item.Place === "Jaisalmer");
-    const { Place, bannerContent, bannerimage, details,price,days } = JaisalmerData || {};
+function Bali() {
+    const baliData = constants.data.find(item => item.Place === "Bali");
+    const { Place, bannerContent, bannerimage, details,price, days } = baliData || {};
     const { title, itinerary } = details || {};
 
     useEffect(() => {
@@ -26,14 +26,14 @@ function Kashmir() {
             <Banner content={bannerContent} bannerImage={bannerimage} />
             <PlanCard title={title} itinerary={itinerary} Place={Place} />
             <PricingCard place={Place} image={bannerimage} price={price} days={days} />
-            <IndiaDestination title={"Other Places"}/>
+            <IndiaDestination title={"Other Places"} />
             <InfoSection />
-            <PlanWithUs/>
-            <Testimonial/>
+            <PlanWithUs />
+            <Testimonial />
             <ContactUsButton />
             <Footer />
         </div>
     );
 }
 
-export default Kashmir;
+export default Bali;

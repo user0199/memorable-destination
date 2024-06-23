@@ -6,6 +6,8 @@
             "slug": "asia/india/jammu_and_kashmir",
             "bannerContent": "Jammu & Kashmir Trip Planner",
             "bannerimage": "https://res.cloudinary.com/dmzjba3cu/image/upload/v1714371118/memorable%20destination%20images/hkmddupbpulo1v9kf6gu.jpg",
+            "days":6,
+            "price":5600,
             "details": {
                 "title": "Scenic Paradise \"Kashmir\"",
                 "itinerary": [
@@ -72,6 +74,8 @@
             "slug": "asia/india/jaisalmer",
             "bannerContent": "The Golden City! Jaisalmer",
             "bannerimage": "https://res.cloudinary.com/dmzjba3cu/image/upload/v1714371117/memorable%20destination%20images/dsjqivbofv8qks0rtlwm.jpg",
+            "days":5,
+            "price":5200,
             "details": {
                 "title": "Visit Jaisalmer, India's Golden City",
                 "itinerary": [
@@ -124,6 +128,8 @@
             "slug": "asia/uae/dubai",
             "bannerContent": "Dubai Trip Planner",
             "bannerimage": "/drilldown.jpeg",
+            "days":6,
+            "price":34800,
             "details": {
                 "title": "Explore the Dazzling \"Dubai\"",
                 "itinerary": [
@@ -180,7 +186,435 @@
                     }
                 ]
             }
+        },
+        {
+            "id": 4,
+            "Place": "Leh-Ladakh",
+            "slug": "asia/india/leh_ladakh",
+            "bannerContent": "Unforgettable charm of India \"Leh-Ladakh\"",
+            "bannerimage": "/laddakh.webp",
+            "days":6,
+            "price":6500,
+            "details": {
+                "title": "Unforgettable charm of India \"Leh-Ladakh\"",
+                "itinerary": [
+                    {
+                        "day": 1,
+                        "description": [
+                            "We will start our services from the Airport/Railways Station.",
+                            "It will be acclimatization day and you will rest for a day which is very important",
+                            "Later in the evening, you can visit Leh bazaar, Shanti Stupa and Leh Palace"
+                        ]
+                    },
+                    {
+                        "day": 2,
+                        "description": [
+                            "Be ready for adventure. Gear up & head out and explore the beautiful land of Leh",
+                            "Visit Hall of fame, The Gurudwara Pathar Sahib, The confluence of rivers of Indus and Zanskar.",
+                            "Later return to Leh, Enroute visit Magnetic Hill"
+                        ]
+                    },
+                    {
+                        "day": 3,
+                        "description": [
+                            "Visit the oldest monasteries in Nubra Valley",
+                            "Visit Diskit Monastery, Later On Visit Sand Dunes of Nubra Valley",
+                            "Overnight stay in camps at Hunder Village of the Nubra Valley"
+                        ]
+                    },
+                    {
+                        "day": 4,
+                        "description": [
+                            "Proceed to Pangong Lake via Shyok Route",
+                            "Visit the exact location of the famous movie “Three idiots”",
+                            "Also you can see seven colour formations in the crystal-clear salt water lake"
+                        ]
+                    },
+                    {
+                        "day": 5,
+                        "description": [
+                            "The Pangong Lake! The first view of the lake will leave you spellbound",
+                            "We will ride back to Leh, crossing Changla Pass 17,350 ft",
+                            "Enroute visit Rancho School (Known as 3 Idiot School), Thikshey & Shey Monestary"
+                        ]
+                    },
+                    {
+                        "day": 6,
+                        "description": [
+                            "Transfer to Airport or Railway Station: Say See you Soon! to Memorable Destination's team Members & Proceed for your Safe onward journey."
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 5,
+            "Place": "Udaipur",
+            "slug": "asia/india/udaipur",
+            "bannerContent": "Udaipur - City of Lakes",
+            "bannerimage": "https://res.cloudinary.com/dmzjba3cu/image/upload/v1714371117/memorable%20destination%20images/dsjqivbofv8qks0rtlwm.jpg",
+            "days":5,
+            "price":4600,
+            "details": {
+                "title": "Udaipur - City of Lakes",
+                "itinerary": [
+                    {
+                        "day": 1,
+                        "description": [
+                            "Scenic Lakes",
+                            "Udaipur boasts a series of stunning lakes, including Lake Pichola, Fateh Sagar Lake, and Udai Sagar Lake.",
+                            " These serene bodies of water are surrounded by lush hills and dotted with historic palaces and temples, creating a picturesque setting that is both tranquil and captivating."
+                        ]
+                    },
+                    {
+                        "day": 2,
+                        "description": [
+                            "Architectural Marvels",
+                            "The city is adorned with magnificent palaces, forts, and havelis, each showcasing intricate Rajput architecture and exquisite craftsmanship.",
+                            "The grand City Palace, perched on the eastern banks of Lake Pichola, is a prime example, offering panoramic views of the surrounding landscape and showcasing opulent courtyards, balconies, and gardens."
+                        ]
+                    },
+                    {
+                        "day": 3,
+                        "description": [
+                            "Cultural Richness",
+                            "Udaipur is steeped in rich cultural heritage, evident in its vibrant markets, colorful festivals, and traditional art forms.",
+                            " Visitors can immerse themselves in the city's vibrant atmosphere by exploring its bustling bazaars, where they can shop for intricate handicrafts, textiles, and jewelry crafted by skilled local artisans."
+                        ]
+                    },
+                    {
+                        "day": 4,
+                        "description": [
+                            "Sunset Splendor",
+                            "One of the most magical experiences in Udaipur is witnessing the sunset over its tranquil lakes.",
+                            "As the sun dips below the horizon, the sky is painted in hues of orange, pink, and gold, casting a mesmerizing glow over the water and the surrounding architecture.",
+                            "Whether viewed from the shores or from a boat cruise on the lake, the sunset in Udaipur is a sight to behold."
+                        ]
+                    },
+                    {
+                        "day": 5,
+                        "description": [
+                            "Romantic Ambiance",
+                            "With its idyllic lakeside setting, historic architecture, and romantic ambiance, Udaipur is often hailed as one of the most romantic cities in India.",
+                            " Whether enjoying a candlelit dinner at a lakeside restaurant, taking a leisurely boat ride at sunset, or staying in a luxurious heritage hotel, couples can't help but be swept away by the city's charm."
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 6,
+            "Place": "Dwarka and Somnath",
+            "slug": "asia/india/dwarka_somnath",
+            "bannerContent": "Spiritual Journey to Dwarka and Somnath",
+            "bannerimage": "https://res.cloudinary.com/dmzjba3cu/image/upload/v1714371117/memorable%20destination%20images/pi4hjcthaxbltxdwwh5j.jpg",
+            "days":3,
+            "price":4300,
+            "details": {
+                "title": "Sacred Pilgrimage to Dwarka and Somnath",
+                "itinerary": [
+                    {
+                        "day": 1,
+                        "description": [
+                            "Hotel Check-in: Upon arrival at the hotel, our team member will assist you in the Check-in process and assist till the room.",
+                            "Rest Some Time: Freshen up and take some Rest and Get Ready for your Shivrajpur Beach tour.",
+                            "Shivrajpur Beach: Enjoy Afternoon on Beach & take some rides & Activities over there (like Paragliding, Boating, & Adventure Rides).",
+                            "Beyt Dwarka: Evening visit at Beyt Dwarka & Enjoy Scuba Diving over there to see Under Water Dwarka Village.",
+                            "Nageshwar Jyotirling: After that visit Nageshwar Jyotirling and Attendant Shayan Aarti.",
+                            "Overnight Stay: Transfer back to the Dwarka Hotel after a day of exploration and relaxation."
+                        ]
+                    },
+                    {
+                        "day": 2,
+                        "description": [
+                            "Dwarka Darshan: Attendant Mangla Aarti & take Blessings from Shree Dwarkadhish.",
+                            "Breakfast at the Hotel: Fuel up for another exciting day with breakfast at the hotel.",
+                            "Somnath Darshan: Attendant Noon Aarti & take Blessings.",
+                            "Sasan Gir Resort: Enjoy evening in Resort (Play Indoor & Outdoors Games like Cricket🏏, Volleyball🏀 & Badminton🏸)",
+                            "Overnight Stay: At the Sasan Gir Resort after a day of exploration and relaxation."
+                        ]
+                    },
+                    {
+                        "day": 3,
+                        "description": [
+                            "Breakfast at the Resort: Start the day with a hearty breakfast at the hotel.",
+                            "Sasan Gir: Visit Sasan Gir Forest & fill the beauty of Nature, Birds & Animals.",
+                            "Devalia Park: After that Explore Devalia Park.",
+                            "End Of your journey: Evening Depart for Ahmedabad."
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 7,
+            "Place": "Goa",
+            "slug": "asia/india/goa",
+            "bannerContent": "Explore the sun-kissed beaches and vibrant nightlife of Goa, India's premier beach destination.",
+            "bannerimage": "/goa.jpeg",
+            "days":5,
+            "price":6700,
+            "details": {
+                "title": "Explore the sun-kissed beaches and vibrant nightlife of Goa, India's premier beach destination.",
+                "itinerary": [
+                    {
+                        "day": 1,
+                        "description": [
+                            "Explore the bustling beaches of Baga and Calangute.",
+                            "Relax on the sandy shores and enjoy water sports activities.",
+                            "Visit local beach shacks for authentic Goan cuisine and refreshing drinks."
+                        ]
+                    },
+                    {
+                        "day": 2,
+                        "description": [
+                            "Discover the historic charm of Old Goa.",
+                            "Visit centuries-old churches and cathedrals, including Basilica of Bom Jesus and Se Cathedral.",
+                            "Explore the vibrant streets lined with colonial-era buildings and museums."
+                        ]
+                    },
+                    {
+                        "day": 3,
+                        "description": [
+                            "Embark on a scenic river cruise along the Mandovi River.",
+                            "Enjoy panoramic views of mangrove forests and quaint villages.",
+                            "Experience traditional Goan music and dance performances on board."
+                        ]
+                    },
+                    {
+                        "day": 4,
+                        "description": [
+                            "Relax and unwind on the serene beaches of Palolem and Agonda.",
+                            "Take a leisurely stroll or indulge in yoga and meditation sessions.",
+                            "Witness breathtaking sunsets over the Arabian Sea."
+                        ]
+                    },
+                    {
+                        "day": 5,
+                        "description": [
+                            "Explore the lush greenery of Goa's countryside.",
+                            "Visit spice plantations and coconut groves.",
+                            "Engage in eco-tourism activities such as bird watching and nature walks."
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 8,
+            "Place": "Manali",
+            "slug": "asia/india/manali",
+            "bannerContent": "Mesmerizing \"Manali\"",
+            "bannerimage": "https://res.cloudinary.com/dmzjba3cu/image/upload/v1714371118/memorable%20destination%20images/najlyuckwyj9abhfsw9m.jpg",
+            "days":6,
+            "price":8700,
+            "details": {
+                "title": "Mesmerizing \"Manali\"",
+                "itinerary": [
+                    {
+                        "day": "Day 0",
+                        "description": [
+                            "Departure From Home Town By Train"
+                        ]
+                    },
+                    {
+                        "day": "Day 1",
+                        "description": [
+                            "Travel Towards Kasol By Traveller/Bus"
+                        ]
+                    },
+                    {
+                        "day": "Day 2",
+                        "description": [
+                            "Tibetan Monastery Visit",
+                            "Free Time For River Rafting & Paragliding"
+                        ]
+                    },
+                    {
+                        "day": "Day 3",
+                        "description": [
+                            "Arrival At Manali",
+                            "Bijli Mahadev",
+                            "Naggar Visit",
+                            "Campfire",
+                            "Stay In Riverside Camp Site"
+                        ]
+                    },
+                    {
+                        "day": "Day 4",
+                        "description": [
+                            "Transfer To Solang Valley",
+                            "Anjani Mahadev Trek",
+                            "Free Time For Adventure Activities In Solang Valley",
+                            "Stay In Hotel"
+                        ]
+                    },
+                    {
+                        "day": "Day 5",
+                        "description": [
+                            "Manali Sight Seeing",
+                            "Campfire & Group Activities",
+                            "Stay In Riverside Camp Site"
+                        ]
+                    },
+                    {
+                        "day": "Day 6",
+                        "description": [
+                            "Manikaran Gurudwara",
+                            "Chalal Trek",
+                            "Campfire",
+                            "Stay In Riverside Camp Site",
+                            "Start Return Journey By Traveller/Bus"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 9,
+            "Place": "Bali",
+            "slug": "asia/indonesia/bali",
+            "bannerContent": "Discover the Beauty of Bali",
+            "bannerimage": "/bali.avif",
+            "days":6,
+            "price":6900,
+            "details": {
+                "title": "Mesmerizing Bali",
+                "itinerary": [
+                    {
+                        "day": 1,
+                        "description": [
+                            "Arrival in Bali",
+                            "Hotel Check-in: Upon arrival at the hotel, our team member will assist you in the Check-in process.",
+                            "Rest and relax at the hotel.",
+                            "Explore the local area and enjoy the vibrant nightlife of Bali."
+                        ]
+                    },
+                    {
+                        "day": 2,
+                        "description": [
+                            "Ubud Exploration",
+                            "Visit the Ubud Monkey Forest and Ubud Palace.",
+                            "Explore the local art markets.",
+                            "Enjoy a traditional Balinese dance performance."
+                        ]
+                    },
+                    {
+                        "day": 3,
+                        "description": [
+                            "Kintamani and Mount Batur",
+                            "Visit the Kintamani Volcano and Lake Batur.",
+                            "Enjoy the scenic views of Mount Batur.",
+                            "Stop by the Tegalalang Rice Terraces for some breathtaking views."
+                        ]
+                    },
+                    {
+                        "day": 4,
+                        "description": [
+                            "Beach Day at Nusa Dua",
+                            "Relax on the pristine beaches of Nusa Dua.",
+                            "Engage in water sports activities such as snorkeling and jet skiing.",
+                            "Enjoy a beachfront seafood dinner."
+                        ]
+                    },
+                    {
+                        "day": 5,
+                        "description": [
+                            "Cultural Day",
+                            "Visit the Tanah Lot Temple, one of Bali's most iconic sea temples.",
+                            "Explore the ancient Besakih Temple, known as the Mother Temple of Bali.",
+                            "Experience the rich cultural heritage of Bali through local ceremonies and traditional dances."
+                        ]
+                    },
+                    {
+                        "day": 6,
+                        "description": [
+                            "Departure",
+                            "Hotel Check-out: Our team member will assist you in the Check-out process.",
+                            "Transfer to the airport for your onward journey."
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 10,
+            "Place": "Thailand",
+            "slug": "thailand-the-land-of-smiles",
+            "bannerContent": "Thailand - The Land of Smiles",
+            "bannerimage": "/thailand.avif",
+            "days":7,
+            "price":25800,
+            "details": {
+                "title": "Mesmerizing Thailand",
+                "itinerary": [
+                    {
+                        "day": 1,
+                        "description": [
+                            "Arrival in Bangkok",
+                            "Hotel Check-in: Upon arrival at the hotel, our team member will assist you in the Check-in process.",
+                            "Rest and relax at the hotel.",
+                            "Explore the local area and enjoy the vibrant nightlife of Bangkok."
+                        ]
+                    },
+                    {
+                        "day": 2,
+                        "description": [
+                            "Bangkok City Tour",
+                            "Visit the Grand Palace and Wat Phra Kaew.",
+                            "Explore the Wat Arun and Wat Pho temples.",
+                            "Enjoy a traditional Thai dinner cruise on the Chao Phraya River."
+                        ]
+                    },
+                    {
+                        "day": 3,
+                        "description": [
+                            "Travel to Chiang Mai",
+                            "Flight to Chiang Mai.",
+                            "Visit the Doi Suthep Temple for a panoramic view of the city.",
+                            "Explore the local night markets."
+                        ]
+                    },
+                    {
+                        "day": 4,
+                        "description": [
+                            "Chiang Mai Exploration",
+                            "Visit an elephant sanctuary and learn about elephant conservation.",
+                            "Explore the ancient city of Wiang Kum Kam.",
+                            "Enjoy a traditional Khantoke dinner with cultural performances."
+                        ]
+                    },
+                    {
+                        "day": 5,
+                        "description": [
+                            "Travel to Phuket",
+                            "Flight to Phuket.",
+                            "Relax on the pristine beaches of Phuket.",
+                            "Explore the local area and enjoy the vibrant nightlife."
+                        ]
+                    },
+                    {
+                        "day": 6,
+                        "description": [
+                            "Phuket Island Tour",
+                            "Visit the Big Buddha and Wat Chalong Temple.",
+                            "Explore the Phi Phi Islands on a day trip.",
+                            "Enjoy a beachfront seafood dinner."
+                        ]
+                    },
+                    {
+                        "day": 7,
+                        "description": [
+                            "Departure",
+                            "Hotel Check-out: Our team member will assist you in the Check-out process.",
+                            "Transfer to the airport for your onward journey."
+                        ]
+                    }
+                ]
+            }
         }
+        
+        
     ],
     "testimonial": [
         {

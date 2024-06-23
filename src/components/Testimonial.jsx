@@ -1,7 +1,12 @@
 import React from 'react'
 import data from "../data/constants.json"
+import { useNavigate } from 'react-router-dom';
 function Testimonial() {
     const testimonials = data.testimonial.slice(0, 4);
+    const navigate = useNavigate()
+    const handleClick=()=>{
+        navigate("/testimonials")
+    }
     return (
         <div className='max-w-6xl mx-auto  p-4 lg:py-14 lg:p-0'>
             <div className='text-xl md:text-3xl font-bold pb-10'>Happy Community of The Memorable Destination</div>
@@ -17,6 +22,9 @@ function Testimonial() {
                         </div>
                     </div>
                 ))}
+            </div>
+            <div className='flex justify-center mt-5'>
+                <button onClick={handleClick} className='border border-black px-8 py-2 rounded-md hover:bg-black hover:text-white transition-all duration-300 ease-in-out'>View All</button>
             </div>
         </div>
     )

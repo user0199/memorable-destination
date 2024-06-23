@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Header from './Header'
 import bgImage from "/contactimg.webp"
 import whatsApp from "/whats.jpg"
@@ -12,6 +12,10 @@ import Footer from './Footer'
 
 
 function ContactUs() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <>
             <Header />

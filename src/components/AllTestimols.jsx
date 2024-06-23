@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Header from './Header'
 import data from "../data/constants.json"
 import Footer from './Footer';
@@ -10,6 +10,11 @@ function AllTestimols() {
     const handleClick = () => {
         nevigate("/contact");
     }
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <>
             <Header />
